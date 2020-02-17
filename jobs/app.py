@@ -6,3 +6,4 @@ app = (__name__)
 @apps.route('/jobs')
 def jobs():
     return render_template('index.html') 
+
